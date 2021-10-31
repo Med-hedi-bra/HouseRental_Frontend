@@ -39,7 +39,7 @@ const Filter = () => {
             // let url =protocol+"//"+host1+":8080/apiStuff"
             let url = "https://backenddarkre.herokuapp.com/apiStuff"
               const response = await axios.get("https://backenddarkre.herokuapp.com/"+"apiStuff/");
-             console.log("https://backenddarkre.herokuapp.com/"+"apiStuff/)
+             console.log("https://backenddarkre.herokuapp.com/"+"apiStuff/")
               console.log("mostfaa")
               if(response.data.data.length==0){
  setVide(false)
