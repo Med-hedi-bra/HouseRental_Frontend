@@ -38,8 +38,8 @@ const Filter = () => {
             const host1 = window.location.hostname
             // let url =protocol+"//"+host1+":8080/apiStuff"
             let url = "https://backenddarkre.herokuapp.com/apiStuff"
-              const response = await axios.get("https://backenddarkre.herokuapp.com/apiStuff/");
-             console.log(response)
+              const response = await axios.get("https://backenddarkre.herokuapp.com/"+"apiStuff/");
+             console.log("https://backenddarkre.herokuapp.com/"+"apiStuff/)
               
               if(response.data.data.length==0){
  setVide(false)
