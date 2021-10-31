@@ -37,7 +37,7 @@ const Filter = () => {
             const protocol =window.location.protocol
             const host1 = window.location.hostname
             // let url =protocol+"//"+host1+":8080/apiStuff"
-            let url = "https://backenddarkre.herokuapp.com/apiStuff"+Url
+            let url = "https://backenddarkre.herokuapp.com/apiStuff"
               const response = await axios.get(url+Url);
              console.log(response)
               console.log("mahmoud")
