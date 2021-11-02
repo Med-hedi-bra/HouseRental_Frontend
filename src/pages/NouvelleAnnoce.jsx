@@ -105,9 +105,9 @@ formData.append("img5",Image["img5"])
 
 
 try {
-   const resp = await axios.post(url,formData,headers:{
+   const resp = await axios.post(url,formData,{headers:{
                                  'Access-Control-Allow-Origin':'*'
-                                 })
+                                 }})
     console.log(resp)
     setMessage(true)
     setAfficheMessage("Votre Maison a été Bien ajouté")
