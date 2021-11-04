@@ -205,7 +205,7 @@ try {
       <div className="my-5 relative -left-2">
         <label for="" className="sm:text-xl text-sm font-bold text-blue mr-2"
           >Categories:</label>
-        <input required type="radio" id="maison" name="categorie" value="maison" />
+        <input required type="radio" id="maison" name="categorie" value="Maison" />
         <label className="font-semibold sm:mr-5 mr-2" for="maison">Maison</label>
 
         <input
@@ -217,7 +217,7 @@ try {
           value="appartement"
           className="font-extralight  "
         />
-        <label className="font-semibold " for="appartement">Appartement</label>
+        <label className="font-semibold " for="Appartement">Appartement</label>
       </div>
 
       <div className="my-5 relative -left-2">
