@@ -80,7 +80,7 @@ else{
  const protocol =window.location.protocol
  const host1 = window.location.hostname
 //  let url =protocol+"//"+host1+":8080/apiStuff"
-let url ="https://backendkarya.herokuapp.com/apiStuff"
+let url ="https://backenddarkre.herokuapp.com/apiStuff"
 console.log(protocol)
 
 
