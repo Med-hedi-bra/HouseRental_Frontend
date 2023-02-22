@@ -80,7 +80,8 @@ else{
  const protocol =window.location.protocol
  const host1 = window.location.hostname
 //  let url =protocol+"//"+host1+":8080/apiStuff"
-let url ="https://backenddarkre.herokuapp.com/apiStuff"
+// let url ="https://backenddarkre.herokuapp.com/apiStuff"
+let url = process.env.REACT_APP_API_URL
 console.log(protocol)
 
 
@@ -110,7 +111,7 @@ try {
     setMessage(true)
     setAfficheMessage("Votre Maison a été Bien ajouté")
 } catch (error) {
-  console.log("miboun")
+  console.log("erreur")
   setMessage(false)
   setAfficheMessage("Un erreur est survenue")
   console.log(AfficheMessage)
