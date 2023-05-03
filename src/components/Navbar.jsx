@@ -34,7 +34,7 @@ return (
       </button>
    </div>
    <div className={ShowNav ? "  md:m-auto    py-10 md:py-0    flex md:flex-row flex-col  links z-0  " : "    md:m-auto  py-8 md:py-0     flex md:flex-row flex-col links active  "}>
-   <NavLink exact to="/" className="px-4 "  activeClassName="coloritem">Acceuil</NavLink>
+   <NavLink exact to="/" className="px-4 "  activeClassName="coloritem">Home</NavLink>
    <NavLink exact to="/About" className="px-4 "  activeClassName="coloritem">A propos</NavLink>
    <div className="flex  flex-col  ">
       <div className='flex px-4' onClick={ShowItems}>
